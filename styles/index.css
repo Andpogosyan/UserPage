@@ -215,4 +215,7 @@ footer a:hover{
     padding: 10px;
     font-size: 14px;
     }
+    .login-block p{
+        margin: 10px 0;
+    }
 }
