@@ -1,39 +1,91 @@
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
-*,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
 
-nav,footer,header,aside{display: block;}
-
-html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+:focus,
+:active {
+    outline: none;
 }
-input,button,textarea{font-family:inherit;}
 
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
+a:focus,
+a:active {
+    outline: none;
+}
 
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
 
 @font-face {
     font-family: 'Clemente';
@@ -45,8 +97,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     src: url("../fonts/ClementePDac_ExtraLight.ttf");
 }
 
-
-
 body {
     font-family: Clemente;
     color: white;
@@ -55,14 +105,10 @@ body {
     max-height: calc(968px - 100px)
 }
 
-
-
 .wrapper {
     max-width: 500px;
     margin: 0 auto;
-    }
-
-
+}
 
 .tittle {
     color: #BF3030;
@@ -72,8 +118,6 @@ body {
     text-align: center;
 }
 
-
-
 .login-block__input {
     background-color: #3B8590;
     border-radius: 5px;
@@ -81,7 +125,6 @@ body {
     margin-top: 125px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .login-block__input img {
@@ -89,14 +132,14 @@ body {
     margin-top: -155px;
 }
 
-.login-block__form form{
+.login-block__form form {
     display: flex;
     flex-direction: column;
     max-width: 100%;
     align-items: center;
 }
 
-.login-block__form form input{
+.login-block__form form input {
     width: 80%;
     background: none;
     border: none;
@@ -107,7 +150,7 @@ body {
     font-family: ClementeLight;
 }
 
-.login-block__form form input:first-child{
+.login-block__form form input:first-child {
     border-bottom: 2px solid white;
 }
 
@@ -116,13 +159,14 @@ body {
     color: white;
     font-weight: 100;
 }
+
 .login-block__form form input::-moz-placeholder {
     font-family: ClementeLight;
     color: white;
     font-weight: 100;
 }
 
-.login-block p{
+.login-block p {
     text-align: center;
     margin: 20px 0;
 }
@@ -137,14 +181,14 @@ body {
     color: white;
 }
 
-.login-block button:hover{
+.login-block button:hover {
     background-color: #00A779;
     transition: all 0.5s ease 0.2s;
 }
 
 footer {
     display: flex;
-    color:#3B8590;
+    color: #3B8590;
     font-family: ClementeLight;
     font-weight: 200;
     font-size: 20px;
@@ -154,51 +198,50 @@ footer {
     text-align: center;
     justify-content: center;
 }
+
 footer a {
-    color:#3B8590;
+    color: #3B8590;
     font-family: Clemente;
     font-weight: normal;
     transition: all 0.5s ease 0.2s;
 }
 
-footer a:hover{
-    border-bottom:1px solid #C64444;
+footer a:hover {
+    border-bottom: 1px solid #C64444;
     color: #C64444;
     transition: all 0.5s ease 0.2s;
 }
 
-
-
-@media all and (max-width: 990px){
-    .wrapper{
+@media all and (max-width: 990px) {
+    .wrapper {
         max-width: 400px;
     }
-    .tittle{
+    .tittle {
         font-size: 35px;
     }
 }
 
-@media all and (max-width: 720px){
-    .wrapper{
+@media all and (max-width: 720px) {
+    .wrapper {
         max-width: 300px;
     }
-    .tittle{
+    .tittle {
         margin-top: 50px;
     }
-    footer p{
+    footer p {
         font-size: 14px;
     }
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 320px) {
     body {
         width: 100%;
         padding: -10px;
     }
-    .wrapper{
+    .wrapper {
         width: 100%;
     }
-    .title{
+    .title {
         margin-top: 35px;
     }
     footer {
@@ -209,13 +252,12 @@ footer a:hover{
     .login-block__input img {
         max-width: 110px;
     }
-
     .login-block button {
         margin-top: 10px;
-    padding: 10px;
-    font-size: 14px;
+        padding: 10px;
+        font-size: 14px;
     }
-    .login-block p{
+    .login-block p {
         margin: 10px 0;
     }
 }
